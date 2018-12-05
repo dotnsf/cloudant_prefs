@@ -8,6 +8,14 @@ Sample data to handle Japanese 47 prefectures for IBM Cloudant.
 
     - `$ curl -u "username:password" -XPOST "https://username.cloudant.com/prefs/_bulk_docs -H "Content-Type: application/json" -d @prefs.json`
 
+## How to create geospacial index
+
+- Create "New Geospacial Index" from Cloudant menu
+
+    - Design name: geodd
+
+    - Index name: geoidx
+
 
 ## Copyright
 
